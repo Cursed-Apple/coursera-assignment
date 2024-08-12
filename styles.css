@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    margin-bottom: 120px;
+}
+.container {
+    background-color: grey;
+    border: 3px solid;
+    width: 400px;
+    float: left;
+
+    position: relative;
+    padding-top: 60px;
+}
+.Food {
+    width: 100px;
+    border: 2px solid;
+    position: absolute;
+    top: -2px; 
+    right: 0px; 
+}
+.Cn {
+    background-color: rgb(250, 147, 164);
+}
+.Bf {
+    background-color: darkred;
+}
+.Si {
+    background-color: rgb(243, 243, 161);
+}
+
+@media (min-width: 992px){
+    .container {
+        margin-left: 32px;
+    }
+    .con1 {
+        width: 30%;
+    }
+    .con2 {
+        width: 30%;
+    }
+    .con3 {
+        width: 30%;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        margin-left: 25px;
+    }
+    .con1 {
+        width: 46%;
+    }
+    .con2 {
+        width: 46%;
+    }
+    .con3 {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        margin-left: 28px;
+    }
+    .con1 {
+        width: 90%;
+    }
+    .con2 {
+        width: 90%;
+    }
+    .con3 {
+        width: 90%;
+    }
+}
