@@ -51,6 +51,7 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
     .container {
         margin-left: 25px;
+        margin-top: 20px;
     }
     .con1 {
         width: 46%;
@@ -59,12 +60,13 @@ h1 {
         width: 46%;
     }
     .con3 {
-        width: 100%;
+        width: 95%;
     }
 }
 @media (max-width: 767px) {
     .container {
         margin-left: 28px;
+        margin-top: 20px;
     }
     .con1 {
         width: 90%;
